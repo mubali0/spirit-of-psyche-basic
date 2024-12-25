@@ -35,7 +35,7 @@ body {
     background: url('https://i.ibb.co/c3rdnrd/276-EF833-3021-492-C-8504-22-FD1-FF8-DA42.png') no-repeat center center/cover;
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
+    padding: 100px 0px;
 }
 
 .hero-content h1 {
@@ -56,25 +56,27 @@ body {
     padding: 50px 20px;
     text-align: center;
 }
-
 .service-cards {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
-
 .card {
     width: 30%;
+    min-width: 250px;
+    margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center; /* Centers text */
+    background-color: #fff; /* Optional: Adds a background color */
 }
-
 .card img {
     max-width: 100%;
+    height: auto;
     border-radius: 5px;
 }
-
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -86,7 +88,7 @@ body {
 .contact-form input, .contact-form textarea, .contact-form button {
     padding: 10px;
     font-size: 1em;
-    border: 1px solid #ddd;
+    border: 1px solid #2f2525;
     border-radius: 5px;
 }
 
@@ -100,5 +102,5 @@ body {
 .footer {
     text-align: center;
     padding: 20px;
-    background: #f8f8f8;
+    background: #100101;
 }
